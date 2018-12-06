@@ -10,7 +10,7 @@ pipeline{
 	stages{
 		stage('Actualizar fuentes Nodo Windows') {
 		 	steps{
-		 		git url: 'http://172.17.27.85:3000/yarias/EjercicioPipeLine.git', credentialsId: 'yarias', branch: 'master'
+		 		git url: 'https://github.com/elkpel/PruebasAutomaticas.git', credentialsId: 'elkpel', branch: 'master'
 			}
 		}
 
